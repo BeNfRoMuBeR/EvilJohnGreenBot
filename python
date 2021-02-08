@@ -6,7 +6,7 @@
 import time
 import random
 
-def funcWait():
+def funcWait(test):
   waitTime = [1,2,3,4]
   time.sleep(random.choice(waitTime))
 
